@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white">
     <!-- Hero Section -->
-    <section class="relative bg-navy-900 text-white overflow-hidden">
+    <section class="relative text-white overflow-hidden" style="background-color: #1e3a8a;">
       <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1576091160399-112ba8a25d16?ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80')] bg-cover bg-center opacity-20"></div>
       <div class="relative max-w-7xl mx-auto px-6 py-24 sm:py-32 lg:px-8 text-center">
         <div class="flex items-center justify-center mb-6">
@@ -420,8 +420,8 @@ const navigateTo = (path) => {
 
 <style>
 /* Custom color palette */
-.bg-navy-900 {
-  background-color: #0f172a;
+.bg-blue-900 {
+  background-color: #1e3a8a;
 }
 .bg-navy-800 {
   background-color: #1e293b;
